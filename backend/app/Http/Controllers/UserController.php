@@ -10,7 +10,7 @@ use JWTAuth;
 
 class UserController extends Controller
 {
-    public function singup(Request $request)
+    public function signup(Request $request)
     {
 
         $this->validate($request, [
@@ -31,7 +31,7 @@ class UserController extends Controller
         ], 201);
     }
 
-    public function singin(Request $request)
+    public function signin(Request $request)
     {
         $this->validate($request, [
             'name' => 'required',

@@ -14,9 +14,9 @@ use Illuminate\Http\Request;
 */
 
 Route::post('/user', [
-    'uses' =>'UserController@singup'
+    'uses' =>'UserController@signup'
     ]);
 
 Route::post('/user/singin', [
-    'uses' =>'UserController@singin'
+    'uses' =>'UserController@signin'
 ]);
